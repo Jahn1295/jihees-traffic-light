@@ -10,8 +10,8 @@ export function TrafficLight() {
         <div className='trafficLightBody'>
             <div className={`redLight ${color === "red" ? "selected" : ""}`}
             onClick={() => setColor('red')}></div>
-            <div className={`orangeLight ${color === "orange" ? "selected" : ""}`}
-            onClick={() => setColor('orange')}></div>
+            <div className={`yellowLight ${color === "yellow" ? "selected" : ""}`}
+            onClick={() => setColor('yellow')}></div>
             <div className={`greenLight ${color === "green" ? "selected" : ""}`}
             onClick={() => setColor('green')}></div>
         </div>

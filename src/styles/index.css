@@ -16,10 +16,10 @@
     margin: 5%;
 }
 
-.orangeLight {
+.yellowLight {
     height: 20vh;
     width: 25vh;
-    background-color: orange;
+    background-color: yellow;
     border-radius: 100%;
     margin: 5%;
 }
@@ -33,6 +33,15 @@
 }
 
 .selected {
-    border: 7px yellow solid;
-}
-
+    box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  @keyframes shine {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  
+  .shine {
+    animation: shine 1.5s infinite;
+  }
